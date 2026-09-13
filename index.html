@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dáire's Stag · Weekend Agenda · Galway Oct 9–11 2026</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2316120c'/><circle cx='50' cy='50' r='39' fill='none' stroke='%233a3026' stroke-width='2'/><circle cx='50' cy='50' r='31' fill='none' stroke='%233a3026' stroke-width='2'/><circle cx='50' cy='50' r='23' fill='none' stroke='%233a3026' stroke-width='2'/><circle cx='50' cy='50' r='15' fill='%23c8471c'/><circle cx='50' cy='50' r='3.5' fill='%23efe1bd'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #efe1bd;
+    --paper: #f6ecce;
+    --ink: #1c130a;
+    --orange: #c8471c;
+    --gold: #dfa106;
+    --faded: #6f5c3f;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--cream); color: var(--ink);
+    font-family: "Oswald", system-ui, sans-serif;
+    background-image: radial-gradient(circle at 1px 1px, rgba(28,19,10,.13) 1px, transparent 0);
+    background-size: 9px 9px;
+    padding: 22px 0 54px;
+  }
+  .poster {
+    max-width: 540px; margin: 0 auto;
+    border: 4px solid var(--ink); background: var(--paper);
+    box-shadow: 12px 12px 0 var(--orange);
+  }
+  .inner { padding: 20px 18px 26px; }
+  .topline {
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+    border-bottom: 3px solid var(--ink); padding-bottom: 8px;
+    font-weight: 600; font-size: .64rem; letter-spacing: .24em;
+    text-transform: uppercase; color: var(--faded);
+  }
+  .topline span:last-child { text-align: right; }
+  .topline .star { color: var(--orange); font-size: .9rem; text-align: center; }
+  .billing { text-align: center; padding: 18px 0 10px; }
+  .billing .presents {
+    font-size: .68rem; letter-spacing: .38em; text-transform: uppercase;
+    color: var(--orange); font-weight: 600;
+  }
+  .billing h1 {
+    font-family: "Anton", sans-serif; font-weight: 400;
+    font-size: clamp(3.6rem, 19vw, 5.6rem); line-height: .9;
+    letter-spacing: .01em; text-transform: uppercase; margin: 8px 0 2px;
+    color: var(--ink);
+    text-shadow: 4px 4px 0 var(--gold);
+  }
+  .billing .subtag {
+    font-family: "Bebas Neue", sans-serif; font-size: 1.5rem;
+    letter-spacing: .34em; text-transform: uppercase; color: var(--orange);
+  }
+  .ticket-strip {
+    display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+    margin: 16px 0 6px; padding: 12px 10px;
+    border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink);
+    background: repeating-linear-gradient(45deg, var(--gold) 0 10px, #edb53a 10px 20px);
+    font-family: "Bebas Neue", sans-serif; font-size: 1.05rem;
+    letter-spacing: .12em; text-transform: uppercase; text-align: center;
+  }
+  .countdown {
+    text-align: center; padding: 16px 8px 4px;
+  }
+  .countdown .lead {
+    font-size: .68rem; letter-spacing: .3em; text-transform: uppercase;
+    font-weight: 600; color: var(--faded); margin-bottom: 8px;
+  }
+  .cd-row { display: flex; justify-content: center; gap: 8px; }
+  .cd-box {
+    min-width: 62px; border: 3px solid var(--ink); background: var(--ink);
+    padding: 6px 8px 4px;
+  }
+  .cd-box b {
+    display: block; font-family: "Anton", sans-serif; font-weight: 400;
+    font-size: 1.9rem; line-height: 1; color: var(--gold);
+  }
+  .cd-box span {
+    display: block; font-size: .54rem; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--cream); margin-top: 2px;
+  }
+  .cd-live {
+    font-family: "Anton", sans-serif; font-size: 1.8rem; letter-spacing: .06em;
+    color: var(--orange); text-transform: uppercase;
+  }
+  .night { margin-top: 26px; }
+  .night-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    border-bottom: 3px solid var(--ink); padding-bottom: 4px;
+  }
+  .night-head h2 {
+    font-family: "Anton", sans-serif; font-weight: 400;
+    font-size: 2rem; text-transform: uppercase; letter-spacing: .02em; line-height: 1;
+  }
+  .night-head .no {
+    font-family: "Bebas Neue", sans-serif; font-size: .95rem;
+    letter-spacing: .2em; color: var(--orange); text-transform: uppercase;
+  }
+  .act {
+    display: grid; grid-template-columns: 88px 1fr; gap: 12px;
+    padding: 13px 4px; border-bottom: 2px dotted rgba(28,19,10,.4);
+  }
+  .act:last-child { border-bottom: 0; }
+  .act .t {
+    font-family: "Bebas Neue", sans-serif; font-size: 1.45rem; line-height: 1;
+    color: var(--orange);
+  }
+  .act .t small {
+    display: block; font-family: "Oswald", sans-serif; font-weight: 500;
+    font-size: .56rem; letter-spacing: .18em; color: var(--faded);
+    text-transform: uppercase; margin-bottom: 1px;
+  }
+  .act .who { font-weight: 600; font-size: 1.12rem; text-transform: uppercase; letter-spacing: .015em; }
+  .act .where { font-size: .88rem; color: var(--faded); margin-top: 2px; }
+  .map {
+    display: inline-block; margin-top: 8px; padding: 8px 13px;
+    background: var(--orange); color: var(--paper); text-decoration: none;
+    font-weight: 600; font-size: .72rem; letter-spacing: .16em;
+    text-transform: uppercase; border: 2px solid var(--ink);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .map:active { background: var(--ink); color: var(--gold); }
+  .runner {
+    margin-top: 26px; border-top: 3px solid var(--ink); padding-top: 12px;
+    display: flex; justify-content: center; gap: 6px;
+    font-family: "Bebas Neue", sans-serif; font-size: 1.05rem;
+    letter-spacing: .14em; text-transform: uppercase;
+  }
+  footer {
+    max-width: 540px; margin: 20px auto 0; text-align: center;
+    font-family: "Bebas Neue", sans-serif; font-size: 1.3rem;
+    letter-spacing: .26em; text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<article class="poster">
+  <div class="inner">
+    <div class="topline">
+      <span>9th - 11th Oct 2026</span>
+      <span class="star">★</span>
+      <span>Co. Galway</span>
+    </div>
+
+    <div class="billing">
+      <p class="presents">Proudly Presenting</p>
+      <h1>Dáire's Stag</h1>
+      <p class="subtag">Agenda</p>
+    </div>
+
+    <div class="ticket-strip">
+      <span>A Weekend of Madness</span>
+      <span>·</span>
+      <span>Fri 9 – Sun 11 Oct 2026</span>
+    </div>
+
+    <div class="countdown" id="cd">
+      <p class="lead">Countdown is on</p>
+      <div class="cd-row">
+        <div class="cd-box"><b data-u="d">--</b><span>days</span></div>
+        <div class="cd-box"><b data-u="h">--</b><span>hrs</span></div>
+        <div class="cd-box"><b data-u="m">--</b><span>min</span></div>
+        <div class="cd-box"><b data-u="s">--</b><span>sec</span></div>
+      </div>
+    </div>
+
+    <section class="night" aria-label="Friday 9th October">
+      <div class="night-head"><h2>Friday</h2><span class="no">Night 01 · Oct 9</span></div>
+      <div class="act">
+        <p class="t"><small>from</small>15:30</p>
+        <div>
+          <p class="who">Arrival</p>
+          <p class="where">Aille, Inverin</p>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=H91+578F" target="_blank" rel="noopener">Map · H91 578F</a>
+        </div>
+      </div>
+      <div class="act">
+        <p class="t">19:30</p>
+        <div><p class="who">Dinner at the House</p></div>
+      </div>
+      <div class="act">
+        <p class="t"><small>till</small>Late</p>
+        <div><p class="who">Pints in the Local</p></div>
+      </div>
+    </section>
+
+    <section class="night" aria-label="Saturday 10th October">
+      <div class="night-head"><h2>Saturday</h2><span class="no">Night 02 · Oct 10</span></div>
+      <div class="act">
+        <p class="t"><small>to 16:30</small>13:00</p>
+        <div>
+          <p class="who">Fishing Trip</p>
+          <p class="where">Meet at the Ferry Car Park</p>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=H91+903H" target="_blank" rel="noopener">Map · H91 903H</a>
+        </div>
+      </div>
+      <div class="act">
+        <p class="t">19:00</p>
+        <div>
+          <p class="who">Dinner at The Quays</p>
+          <p class="where">Bar &amp; Restaurant, Galway</p>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=The+Quays+Bar+Galway" target="_blank" rel="noopener">Map · The Quays</a>
+        </div>
+      </div>
+      <div class="act">
+        <p class="t"><small>till</small>Late</p>
+        <div><p class="who">Late-Night Boogie</p></div>
+      </div>
+    </section>
+
+    <section class="night" aria-label="Sunday 11th October">
+      <div class="night-head"><h2>Sunday</h2><span class="no">Recovery · Oct 11</span></div>
+      <div class="act">
+        <p class="t"><small>by</small>11:00</p>
+        <div><p class="who">Check-Out</p></div>
+      </div>
+      <div class="act">
+        <p class="t">12:00</p>
+        <div>
+          <p class="who">The Pear Tree Café</p>
+          <p class="where">Lunch — if heads allow</p>
+          <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=H91+CDW4" target="_blank" rel="noopener">Map · H91 CDW4</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="runner">
+      <span>Galway · 2026</span>
+    </div>
+  </div>
+</article>
+
+<footer>
+  SEE YOU THERE
+</footer>
+
+<script>
+(function () {
+  var target = new Date("2026-10-09T15:30:00+01:00").getTime();
+  var root = document.getElementById("cd");
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function tick() {
+    var d = target - Date.now();
+    if (!root) return;
+    if (d <= 0) {
+      root.innerHTML = '<p class="lead">Countdown is on</p><span class="cd-live">It’s On</span>';
+      return;
+    }
+    var vals = {
+      d: Math.floor(d / 86400000),
+      h: Math.floor(d / 3600000) % 24,
+      m: Math.floor(d / 60000) % 60,
+      s: Math.floor(d / 1000) % 60
+    };
+    root.querySelectorAll("[data-u]").forEach(function (n) {
+      n.textContent = pad(vals[n.dataset.u]);
+    });
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>
